@@ -1,0 +1,16 @@
+{
+  "name": "diploma_aqa_ts",
+  "version": "1.0.0",
+  "description": "graduate work of training course \"AQA (TS/JS)\"",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier . --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}

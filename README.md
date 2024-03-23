@@ -1,1 +1,3 @@
-# Diploma_AQA_TS
+# Graduate work
+
+## Repository with graduate work of TeachMeSkills "AQA (TS/JS)"
