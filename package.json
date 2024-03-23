@@ -1,16 +1,17 @@
 {
-  "name": "diploma_aqa_ts",
-  "version": "1.0.0",
-  "description": "graduate work of training course \"AQA (TS/JS)\"",
-  "main": "index.js",
-  "scripts": {
-    "format": "prettier . --write"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "3.2.5",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.3"
-  }
+	"name": "diploma_task_1",
+	"version": "1.0.0",
+	"description": "Graduate work (task №1) of training course \"AQA (TS/JS)\"",
+	"scripts": {
+		"format": "prettier --write \"**.ts\"",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.12",
+		"jest": "^29.7.0",
+		"prettier": "3.2.5",
+		"ts-jest": "^29.1.2",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.3"
+	}
 }
