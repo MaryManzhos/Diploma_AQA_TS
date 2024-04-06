@@ -1,2 +1,8 @@
 **/.git
 **/node_modules
+**.config.ts
+**.json
+**.md
+**/allure-report
+**/allure-results
+.prettierrc

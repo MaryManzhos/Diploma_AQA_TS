@@ -1,14 +1,20 @@
 {
-  "name": "diploma_aqa_ts",
+  "name": "diploma_task_3",
   "version": "1.0.0",
-  "description": "graduate work of training course \"AQA (TS/JS)\"",
-  "main": "index.js",
+  "description": "Graduate work (task №3) of training course \"AQA (TS/JS)\"",
   "scripts": {
-    "format": "prettier . --write"
+    "prettier:fix": "prettier . --write",
+    "pw:install": "npx playwright install",
+    "pw:run": "npx playwright test",
+    "test": "npx playwright install && npx playwright test --headed",
+    "allure:generate": "npx allure generate reports/allure-results -o reports/allure-report --clean",
+    "allure:open": "npx allure open reports/allure-report"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.4",
+    "allure-commandline": "^2.27.0",
+    "allure-playwright": "^2.15.0",
     "prettier": "3.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
