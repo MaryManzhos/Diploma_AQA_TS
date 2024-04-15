@@ -1,16 +1,20 @@
 {
-  "name": "diploma_aqa_ts",
-  "version": "1.0.0",
-  "description": "graduate work of training course \"AQA (TS/JS)\"",
-  "main": "index.js",
-  "scripts": {
-    "format": "prettier . --write"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "3.2.5",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.3"
-  }
+	"name": "diploma_task_2",
+	"version": "1.0.0",
+	"description": "Graduate work (task №2) of training course \"AQA (TS/JS)\"",
+	"scripts": {
+		"prettier:fix": "prettier . --write",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.12",
+		"@types/node-fetch": "^2.6.11",
+		"axios": "^1.6.7",
+		"jest": "^29.7.0",
+		"node-fetch": "^2.6.11",
+		"ts-jest": "^29.1.2",
+		"prettier": "3.2.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.3"
+	}
 }
